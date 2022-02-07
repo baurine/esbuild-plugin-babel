@@ -14,7 +14,7 @@ If not, you can add the Babel plugin you need with this plugin.
 ### Install
 
 ```zsh
-npm install esbuild-plugin-babel -D
+npm install @baurine/esbuild-plugin-babel -D
 ```
 
 <br>
@@ -24,8 +24,8 @@ npm install esbuild-plugin-babel -D
 `esbuild.config.js`
 
 ```js
-import esbuild from 'esbuild';
-import babel from 'esbuild-plugin-babel';
+const esbuild = require('esbuild');
+const babel = require('@baurine/esbuild-plugin-babel');
 
 esbuild
     .build({
